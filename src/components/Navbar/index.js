@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 // MY IMPORTS
 import './style.css';
-import './responsivo.css';
+import './responsive.css';
 
 // MY IMAGE
 import logo from '../../assets/HeaderLogo.png';
