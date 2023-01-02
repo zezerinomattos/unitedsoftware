@@ -22,7 +22,7 @@ export default function Home(){
                 </div>
                 
                 <div className='img-ze'>
-                    <img src={imgZeze} alt="Imagem" />
+                    {/* <img src={imgZeze} alt="Imagem" /> */}
                 </div>
             </div>
         </header>
