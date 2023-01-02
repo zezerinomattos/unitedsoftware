@@ -22,6 +22,10 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Pacifico', cursive;
 */
 
+/*----------------------------*/
+/*          HEADER            */
+/*----------------------------*/
+
 header.container {
     width: 100%;
     height: 90vh;
@@ -32,3 +36,18 @@ header.container {
 
     border-top: 2px solid #F25C05;
 }
+
+header.container div.header-inf-mestre{
+    
+}
+
+/*----------------------------*/
+/*          TEXTOS HEADER     */
+/*----------------------------*/
+
+
+
+/*----------------------------*/
+/*          IMAGEM HEADER     */
+/*----------------------------*/
+
