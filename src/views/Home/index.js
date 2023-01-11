@@ -21,8 +21,8 @@ export default function Home(){
                     <Link to="#" >FAÇA UM ORÇAMENTO SEM COMPROMISSO</Link>
                 </div>
                 
-                <div className='img-ze'>
-                    {/* <img src={imgZeze} alt="Imagem" /> */}
+                <div className='img-ze image-block'>
+                    <img src={imgZeze} alt="Imagem" />
                 </div>
             </div>
         </header>

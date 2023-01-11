@@ -38,9 +38,12 @@ nav.container{
 /*-------- LOGO -------------- */
 
 nav.container div.img-logo{
-    max-width: 100px;
+    max-width: 250px;
     height: 120px;
     margin-left: 5rem;
+
+    display: flex;
+    align-items: center;
 }
 
 nav.container div.img-logo img{

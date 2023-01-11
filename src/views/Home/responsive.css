@@ -4,6 +4,14 @@
 /*          TABLET            */
 /*----------------------------*/
 
+@media(max-width: 900px){
+    header.container{
+        
+        max-height: 120vh;
+    }
+    
+}
+
 /*---------- DIV MESTRE ----------*/
 @media (max-width: 768px) {
     header.container div.header-inf-mestre{
@@ -13,11 +21,18 @@
     }
 }
 
+@media (max-width: 420px) {
+    header.container div.header-inf-mestre{
+        margin-top: -40px;
+    }
+}
+
 
 /*---------- Textos -------------*/
 @media (max-width: 768px) {
     header.container div.header-inf-mestre div.textos{
         width: 95%;
+        margin-bottom: 40px;
     }
 
     header.container div.header-inf-mestre div.textos a{
@@ -28,3 +43,8 @@
 
 /*--------- IMAGEM --------------*/
 
+@media (max-width: 900px) {
+    header.container div.header-inf-mestre div.img-ze{
+        flex-direction: row;
+    }
+}

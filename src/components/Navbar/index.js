@@ -6,7 +6,7 @@ import './style.css';
 import './responsive.css';
 
 // MY IMAGE
-import logo from '../../assets/HeaderLogo.png';
+import logo from '../../assets/HeaderLogo1.png';
 
 
 export default function Navbar(){
