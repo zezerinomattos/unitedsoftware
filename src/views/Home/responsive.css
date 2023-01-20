@@ -39,12 +39,3 @@
         display: none;
     }
 }
-
-
-/*--------- IMAGEM --------------*/
-
-@media (max-width: 900px) {
-    header.container div.header-inf-mestre div.img-ze{
-        flex-direction: row;
-    }
-}

@@ -11,20 +11,24 @@ import imgZeze from '../../assets/HeaderZezerino.png'
 
 export default function Home(){
     return(
-        <header className='container'>
-            <Navbar />
-            <div className='header-inf-mestre'>
-                <div className='textos'>
-                    <h1>UNITED SOFTWARE</h1>
-                    <h2>Welcome to the Future!</h2>
-
-                    <Link to="#" >FAÇA UM ORÇAMENTO SEM COMPROMISSO</Link>
-                </div>
+        <>
+            
+            <header className='container'>
+                <Navbar />
                 
-                <div className='img-ze image-block'>
-                    <img src={imgZeze} alt="Imagem" />
+                <div className='header-inf-mestre'>
+                    <div className='textos'>
+                        <h1>UNITED SOFTWARE</h1>
+                        <h2>Welcome to the Future!</h2>
+
+                        <Link to="#" >FAÇA UM ORÇAMENTO SEM COMPROMISSO</Link>
+                    </div>
+                    
+                    <div className='img-ze image-block'>
+                        {/* <img src={imgZeze} alt="Imagem" /> */}
+                    </div>
                 </div>
-            </div>
-        </header>
+            </header>
+        </>
     );
 }
