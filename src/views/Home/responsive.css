@@ -36,6 +36,19 @@
     }
 
     header.container div.header-inf-mestre div.textos a{
-        display: none;
+        padding: 2.5vw 2.5vw;
+    }
+}
+
+
+/*----------------------------*/
+/*          SECTION PAGINAS   */
+/*----------------------------*/
+
+/*---------- textos -----------*/
+@media (max-width: 768px) {
+    section.paginas div.paginas-superior-texto{
+        max-width: 90%;   
+        flex-direction: column;
     }
 }

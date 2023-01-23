@@ -101,7 +101,7 @@ header.container div.header-inf-mestre div.textos a{
 }
 
 header.container div.header-inf-mestre div.textos a:hover{
-    opacity: .6;
+    opacity: .7;
 }
 
 /*----------------------------*/
@@ -193,3 +193,74 @@ section.sobre div.sobre-textos p{
     text-shadow: 1px 1px 5px rgb(189, 189, 189);
     margin-top: 1rem;
 }
+
+/*----------------------------*/
+/*          SECTION PAGINAS   */
+/*----------------------------*/
+
+section.paginas{
+    width: 100%;
+    margin-bottom: 60px;
+    background-color: #13182B;
+    text-align: center;
+    padding: 20px;
+}
+
+/*---------- textos -----------*/
+
+section.paginas h1{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: max(22px, 2.5vw);
+    font-weight: 400;
+    color: #FFF;
+    text-shadow: 4px 6px 10px #000;
+    margin: 1.2rem 0;
+}
+
+section.paginas h3{
+    font-size: max(16px, 1.2vw);
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #049DD9;
+    text-shadow: 4px 6px 10px #000;
+    margin-bottom: 2rem;
+
+    width: 100%;
+    text-align: center;
+
+    animation: digitando 2s steps(22), blink 0.5s step-end infinite alternate;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+section.paginas div.paginas-superior-texto{
+    max-width: 70%;
+    margin: auto;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+section.paginas div.paginas-superior-texto div.paginas-superior-texto-esq, section.paginas div.paginas-superior-texto div.paginas-superior-texto-dir{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.paginas div.paginas-superior-texto div.paginas-superior-texto-esq p, section.paginas div.paginas-superior-texto div.paginas-superior-texto-dir p{
+    margin-bottom: 2rem;
+    font-size: max(12px, .9vw);
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1rem;
+    text-shadow: 4px 6px 10px #000;
+    text-align: left;
+
+    max-width: 95%;
+}
+
