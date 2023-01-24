@@ -143,8 +143,6 @@ section.sobre{
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-
-    /* background-color: blueviolet; */
 }
 
 section.sobre div.sobre-imagem{
@@ -200,13 +198,17 @@ section.sobre div.sobre-textos p{
 
 section.paginas{
     width: 100%;
-    margin-bottom: 60px;
+    margin-bottom: 60px;   
+}
+
+/*---------- textos -----------*/
+
+section.paginas div.paginas-superior{
+    width: 100%;
     background-color: #13182B;
     text-align: center;
     padding: 20px;
 }
-
-/*---------- textos -----------*/
 
 section.paginas h1{
     font-family: 'Open Sans', sans-serif;
@@ -264,3 +266,35 @@ section.paginas div.paginas-superior-texto div.paginas-superior-texto-esq p, sec
     max-width: 95%;
 }
 
+section.paginas h4{
+    font-size: max(13px, 1vw);
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #049DD9;
+    text-shadow: 4px 6px 10px #000;
+    margin: 1.5rem 0;
+}
+
+/*---------- Div inferior -----------*/
+
+section.paginas div.paginas-inferior{
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+section.paginas div.paginas-inferior div.paginas-inferior-textos{
+    max-width: 30%;
+}
+
+section.paginas div.paginas-inferior div.paginas-inferior-img{
+    max-width: 40%;
+    align-items: flex-end;
+}
+
+section.paginas div.paginas-inferior div.paginas-inferior-img img{
+    max-width: 100%;
+}

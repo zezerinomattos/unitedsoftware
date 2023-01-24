@@ -8,6 +8,7 @@ import Navbar from '../../components/Navbar';
 
 // IMAGES
 import imgSobre from '../../assets/sobre.png';
+import imgPaginaCapa from '../../assets/paginas-capa.png';
 
 export default function Home(){
     return(
@@ -63,6 +64,21 @@ export default function Home(){
                                 Desenvolvemos o layout conforme as necessidades da sua empresa, público alvo e características baseado na sua linha de produtos e filosofia. Com nossa metodologia de prototipação nossos clientes acompanham todo processo criativo do seu material, podendo solicitar alterações até a sua aprovação.
                             </p>
                         </div>
+                    </div>
+                    <h4>DEIXE NOSSA EQUIPE TE SURPREENDER!</h4>
+                </div>
+                <div className='paginas-inferior'>
+                    <div className='paginas-inferior-textos'>
+                        <h2>EXPERIÊNCIAS MODERNAS</h2>
+                        <p>
+                            Desenvolvemos o layout conforme as necessidades da sua empresa, público  alvo e características baseado na sua linha de produtos e filosofia. Com nossa metodologia de prototipação nossos clientes acompanham todo processo criativo do seu material, podendo solicitar alterações até a sua aprovação.
+                        </p>
+                        <p>
+                            Desenvolvemos o layout conforme as necessidades da sua empresa, público alvo e características baseado na sua linha de produtos e filosofia. Com nossa metodologia de prototipação nossos clientes acompanham todo processo criativo do seu material, podendo solicitar alterações até a sua aprovação.
+                        </p>
+                    </div>
+                    <div className='paginas-inferior-img'>
+                        <img src={imgPaginaCapa} alt="Imagem de Capa" />
                     </div>
                 </div>
             </section>
