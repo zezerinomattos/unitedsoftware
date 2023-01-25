@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import './style.css';
 import './responsive.css';
 import Navbar from '../../components/Navbar';
+import Footer from '../../components/Footer';
 
 // IMAGES
 import imgSobre from '../../assets/sobre.png';
@@ -82,6 +83,8 @@ export default function Home(){
                     </div>
                 </div>
             </section>
+            
+            <Footer />
         </>
     );
 }
