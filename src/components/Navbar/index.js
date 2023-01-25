@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
+import { Link as Links} from "react-scroll";
+
 // MY IMPORTS
 import './style.css';
 import './responsive.css';
@@ -25,8 +27,8 @@ export default function Navbar(){
 
             <ul className={`menu-left ${actived ? 'active-menu' : 'not-active-menu'}`}>
                 <li><Link to='/'>Home</Link></li>
-                <li><Link to='Sobre'>Sobre</Link></li>
-                <li><Link to='oqueoferecemos'>Oque Oferecemos</Link></li>
+                <li><Links activeClass="active" to="sobre" spy={true} smooth={true} offset={-150} duration={500}>Sobre</Links></li>
+                <li><Links activeClass="active" to="paginas" spy={true} smooth={true} offset={0} duration={500}>Oque Oferecemos</Links></li>
                 <li><Link to='produtos'>Produtos</Link></li>
                 <li><Link to='contato'>Contato</Link></li>
             </ul>
@@ -40,3 +42,6 @@ export default function Navbar(){
         </nav>
     );
 }
+
+                   
+                

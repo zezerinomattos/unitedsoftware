@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
+import { Link as Links, animateScroll as scroll } from "react-scroll";
+
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -23,13 +25,13 @@ export default function Footer(){
     return(
         <footer data-aos='fade-up'>
             <div className='img-logo'>
-                <Link to='/'><img src={logo} alt="Logotipo-futer" /></Link>
+                <Links Links activeClass="active" to="container" spy={true} smooth={true} offset={0} duration={500}><img src={logo} alt="Logotipo-futer" /></Links>
             </div>
             <nav className='container-inferior'>
                 <ul className='menu'>
                     <li><Link to='/'>Home</Link></li>
-                    <li><Link to='Sobre'>Sobre</Link></li>
-                    <li><Link to='oqueoferecemos'>Oque Oferecemos</Link></li>
+                    <li><Links activeClass="active" to="sobre" spy={true} smooth={true} offset={-50} duration={500}>Sobre</Links></li>
+                    <li><Links activeClass="active" to="paginas" spy={true} smooth={true} offset={0} duration={500}>Oque Oferecemos</Links></li>
                     <li><Link to='produtos'>Produtos</Link></li>
                     <li><Link to='contato'>Contato</Link></li>
                 </ul>

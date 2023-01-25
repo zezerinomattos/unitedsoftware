@@ -16,6 +16,11 @@ import imgPaginaCapa from '../../assets/paginas-capa.png';
 
 export default function Home(){
 
+    function sobre(){
+        window.scroll('.sobre');
+        
+    }
+
     useEffect(() => {
         Aos.init({duration: 2000});
     }, []);
@@ -23,7 +28,7 @@ export default function Home(){
     return(
         <>           
             <header className='container'>
-                <Navbar />                
+                <Navbar/>                
                 <div className='header-inf-mestre'>
                     <div className='textos'>
                         <h1>UNITED SOFTWARE</h1>

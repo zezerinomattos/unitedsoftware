@@ -89,6 +89,7 @@ nav.container ul.menu-left li a{
     transition: .3s ease-in-out;
 
     text-shadow: 4px 6px 10px #000;
+    cursor: pointer;
 }
 
 nav.container ul.menu-left li a:hover{
