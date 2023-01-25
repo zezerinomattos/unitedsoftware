@@ -69,12 +69,12 @@ export default function Home(){
                 </div>
                 <div className='paginas-inferior'>
                     <div className='paginas-inferior-textos'>
-                        <h2>EXPERIÊNCIAS MODERNAS</h2>
+                        <h2>EXPERIÊNCIA VISUAL MODERNA</h2>
                         <p>
-                            Desenvolvemos o layout conforme as necessidades da sua empresa, público  alvo e características baseado na sua linha de produtos e filosofia. Com nossa metodologia de prototipação nossos clientes acompanham todo processo criativo do seu material, podendo solicitar alterações até a sua aprovação.
+                            Você não percebe, mas quando vamos comprar um produto em um e-commerce ou visitar um site de uma empresa, intuitiva e rapidamente nosso cérebro recebe todas as informações visuais dos mesmos.
                         </p>
                         <p>
-                            Desenvolvemos o layout conforme as necessidades da sua empresa, público alvo e características baseado na sua linha de produtos e filosofia. Com nossa metodologia de prototipação nossos clientes acompanham todo processo criativo do seu material, podendo solicitar alterações até a sua aprovação.
+                            Quando visualizamos uma loja, um site ou uma página bem organizada e com um belo design, são ativados gatilhos mentais sem percebemos e logo vem em nossa mente que "esse local é confiável". Isso se torna um fator determinante para que a venda se concretize.
                         </p>
                     </div>
                     <div className='paginas-inferior-img'>
