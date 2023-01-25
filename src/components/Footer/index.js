@@ -12,7 +12,9 @@ import logo from '../../assets/HeaderLogo1.png';
 
 export default function Footer(){
 
-    const urlYouTube = 'https://www.youtube.com/@vocenaoeoprimeiro';
+    const instagram = 'https://www.instagram.com/zezerino_mattos/';
+    const facebook = 'https://www.facebook.com/profile.php?id=100081137054124';
+    const whats = 'https://wa.me/5548991589625?text=Olá,%20eu%20gostaria%20de%20informações%20sobre...';
 
     useEffect(() => {
         Aos.init({duration: 2000});
@@ -33,14 +35,14 @@ export default function Footer(){
                 </ul>
 
                 <ul className='redes-sociais'>
-                    <li><a href={urlYouTube} target='blank'><ion-icon name="logo-instagram"></ion-icon> Instagram</a></li>
-                    <li><a href={urlYouTube} target='blank'><ion-icon name="logo-facebook"></ion-icon> Facebook</a></li>
-                    <li><a href={urlYouTube} target='blank'><ion-icon name="logo-whatsapp"></ion-icon> Whatsapp</a></li>
+                    <li><a href={instagram} target='blank'><ion-icon name="logo-instagram"></ion-icon> Instagram</a></li>
+                    <li><a href={facebook} target='blank'><ion-icon name="logo-facebook"></ion-icon> Facebook</a></li>
+                    <li><a href={whats} target='blank'><ion-icon name="logo-whatsapp"></ion-icon> Whatsapp</a></li>
                 </ul>
 
                 <ul className='contato'>
-                    <li><ion-icon name="call-outline"></ion-icon> 48 9 91270827</li>
-                    <li><ion-icon name="mail-outline"></ion-icon> mattoszz@hotmail.com</li>
+                    <li><ion-icon name="call-outline"></ion-icon> 48 9 91589625</li>
+                    <li><ion-icon name="mail-outline"></ion-icon> unitedsoftw@gmail.com</li>
                 </ul>
             </nav>
             <span>Copyright © United Software. Todos diretos reservados.</span>
