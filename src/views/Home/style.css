@@ -82,7 +82,7 @@ header.container div.header-inf-mestre div.textos h2{
     text-align: center;
 
     animation: digitando 2s steps(22), blink 0.5s step-end infinite alternate;
-    animation-delay: 2s;
+    animation-delay: .5s;
     animation-fill-mode: backwards;
     white-space: nowrap;
     overflow: hidden;
@@ -221,7 +221,7 @@ section.paginas h1{
 }
 
 section.paginas h3{
-    font-size: max(16px, 1.2vw);
+    font-size: max(11px, 1.2vw);
     font-weight: 400;
     font-family: 'Open Sans', sans-serif;
     color: #049DD9;

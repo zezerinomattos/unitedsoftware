@@ -1,5 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 // MY IMPORTS
 import './style.css';
@@ -9,10 +12,14 @@ import logo from '../../assets/HeaderLogo1.png';
 
 export default function Footer(){
 
-    const urlYouTube = 'https://www.youtube.com/@vocenaoeoprimeiro'
+    const urlYouTube = 'https://www.youtube.com/@vocenaoeoprimeiro';
+
+    useEffect(() => {
+        Aos.init({duration: 2000});
+    }, []);
 
     return(
-        <footer>
+        <footer data-aos='fade-up'>
             <div className='img-logo'>
                 <Link to='/'><img src={logo} alt="Logotipo-futer" /></Link>
             </div>

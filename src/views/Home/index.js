@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Link } from 'react-router-dom';
 
 // MY IMPORTS
@@ -7,11 +7,19 @@ import './responsive.css';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
 // IMAGES
 import imgSobre from '../../assets/sobre.png';
 import imgPaginaCapa from '../../assets/paginas-capa.png';
 
 export default function Home(){
+
+    useEffect(() => {
+        Aos.init({duration: 2000});
+    }, []);
+
     return(
         <>           
             <header className='container'>
@@ -26,7 +34,7 @@ export default function Home(){
                 </div>
             </header>
 
-            <section className='sobre'>
+            <section className='sobre' data-aos='fade-up'>
                 <div className='sobre-imagem'>
                     <img src={imgSobre} alt="Imagem da página Sobre" />
                 </div>
@@ -46,7 +54,7 @@ export default function Home(){
 
             <section className='paginas'>
                 <div className='paginas-superior'>
-                    <h1>LAYOUT EXCLUSIVO PARA SUA EMPRESA</h1>
+                    <h1 data-aos='fade-left'>LAYOUT EXCLUSIVO PARA SUA EMPRESA</h1>
                     <h3>EXPERIÊNCIAS MODERNAS, EFICIENTES, INOVADORAS E INTUITIVAS</h3>
                     <div className='paginas-superior-texto'>
                         <div className='paginas-superior-texto-esq'>
@@ -69,7 +77,7 @@ export default function Home(){
                     <h4>DEIXE NOSSA EQUIPE TE SURPREENDER!</h4>
                 </div>
                 <div className='paginas-inferior'>
-                    <div className='paginas-inferior-textos'>
+                    <div className='paginas-inferior-textos' data-aos='slide-right'>
                         <h2>EXPERIÊNCIA VISUAL MODERNA</h2>
                         <p>
                             Você não percebe, mas quando vamos comprar um produto em um e-commerce ou visitar um site de uma empresa, intuitiva e rapidamente nosso cérebro recebe todas as informações visuais dos mesmos.
@@ -78,7 +86,7 @@ export default function Home(){
                             Quando visualizamos uma loja, um site ou uma página bem organizada e com um belo design, são ativados gatilhos mentais sem percebemos e logo vem em nossa mente que "esse local é confiável". Isso se torna um fator determinante para que a venda se concretize.
                         </p>
                     </div>
-                    <div className='paginas-inferior-img'>
+                    <div className='paginas-inferior-img' data-aos='slide-left'>
                         <img src={imgPaginaCapa} alt="Imagem de Capa" />
                     </div>
                 </div>
