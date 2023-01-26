@@ -20,8 +20,6 @@ export default function Navbar(){
         setActived(!actived);
     }
 
-    console.log(actived);
-
     return(
         <nav className='container'>
             <div className='img-logo'>
