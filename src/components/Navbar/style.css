@@ -94,7 +94,11 @@ nav.container ul.menu-left li a{
 
 nav.container ul.menu-left li a:hover{
     opacity: .6;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #fff; 
+}
 
-    
+/*-------- MENU Ativado -------------- */
+nav.container ul.menu-left li a.optionActived{
+    opacity: .6;
+    border-bottom: 1px solid #fff;
 }

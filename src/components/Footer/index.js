@@ -25,7 +25,7 @@ export default function Footer(){
     return(
         <footer data-aos='fade-up'>
             <div className='img-logo'>
-                <Links Links activeClass="active" to="container" spy={true} smooth={true} offset={0} duration={500}><img src={logo} alt="Logotipo-futer" /></Links>
+                <Links Links activeClass="active" to="container" spy={true} smooth={true} offset={-160} duration={500}><img src={logo} alt="Logotipo-futer" /></Links>
             </div>
             <nav className='container-inferior'>
                 <ul className='menu'>
