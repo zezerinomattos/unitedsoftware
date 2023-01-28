@@ -3,15 +3,21 @@ import emailjs from '@emailjs/browser';
 
 // MY IMPORTS
 import './style.css';
+import './responsive.css';
 import Navbar from '../../components/Navbar';
+import Footer from '../../components/Footer';
 
 
 export default function Login(){
 
-    const [name, setName] = useState('')
-    const [email, setEmail] = useState('')
-    const [fone, setFone] = useState('')
-    const [message, setMessage] = useState('')
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [fone, setFone] = useState('');
+    const [message, setMessage] = useState('');
+
+    const instagram = 'https://www.instagram.com/zezerino_mattos/';
+    const facebook = 'https://www.facebook.com/profile.php?id=100081137054124';
+    const whats = 'https://wa.me/5548991589625?text=Olá,%20eu%20gostaria%20de%20informações%20sobre...';
 
     function sendEmail(e){
         e.preventDefault();
@@ -95,8 +101,16 @@ export default function Login(){
 
                 </div>
 
-                <div className='contato-esq'></div>
+                <div className='contato-esq'>
+                    <ul className='esq-redes'>
+                        <li><a href={instagram} target='blank'><ion-icon name="logo-instagram"></ion-icon> Instagram</a></li>
+                        <li><a href={facebook} target='blank'><ion-icon name="logo-facebook"></ion-icon> Facebook</a></li>
+                        <li><a href={whats} target='blank'><ion-icon name="logo-whatsapp"></ion-icon> Whatsapp</a></li>
+                    </ul>
+                </div>
             </section>
+
+            <Footer />
         </div>
     );
 }
