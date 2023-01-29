@@ -3,10 +3,10 @@ import React from 'react';
 // MY IMPORTS
 import './style.css';
 
-const Layout = (() => {
+const LayoutProdutos = (() => {
     return(
-        <h1></h1>
+        <h1>TesteLayout</h1>
     );
 });
 
-export {Layout};
+export {LayoutProdutos};
