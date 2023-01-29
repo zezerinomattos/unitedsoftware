@@ -1,0 +1,24 @@
+/*----------------------------*/
+/*          TABLET            */
+/*----------------------------*/
+/*---------- HEADER ----------*/
+
+@media(max-width: 1215px) {
+    header div.header-container{
+        flex-direction: column;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    /*---------- IMAGEM ----------*/
+    header div.header-container div.imagem{
+        margin-bottom: 2rem;
+    }
+
+    /*---------- DIV TEXTOS ----------*/
+    header div.header-container div.textos{
+        max-width: 90%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

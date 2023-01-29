@@ -32,8 +32,8 @@ export default function Navbar(){
                 <li><Links className={option === 'sobre' ? 'optionActived' : null} onClick={() => setOption('sobre')} activeClass="active" to="sobre" spy={true} smooth={true} offset={-150} duration={500} >Sobre</Links></li>
                 <li><Links className={option === 'oque-oferecemos' ? 'optionActived' : null} onClick={() => setOption('oque-oferecemos')} activeClass="active" to="paginas" spy={true} smooth={true} offset={0} duration={500}>Oque Oferecemos</Links></li>
                 
-                <li><Link to='produtos' className={option === 'produtos' ? 'optionActived' : null} onClick={() => setOption('produtos')}>Produtos</Link></li>
-                <li><Link to='contato' className={option === 'contato' ? 'optionActived' : null} onClick={() => setOption('contato')}>Contato</Link></li>
+                <li><Link to='/produtos' className={option === 'produtos' ? 'optionActived' : null} onClick={() => setOption('produtos')}>Produtos</Link></li>
+                <li><Link to='/contato' className={option === 'contato' ? 'optionActived' : null} onClick={() => setOption('contato')}>Contato</Link></li>
             </ul>
 
             <ul className='menu-humburguer'>

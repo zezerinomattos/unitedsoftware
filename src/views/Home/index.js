@@ -82,7 +82,7 @@ export default function Home(){
                     <h4>DEIXE NOSSA EQUIPE TE SURPREENDER!</h4>
                 </div>
                 <div className='paginas-inferior'>
-                    <div className='paginas-inferior-textos' data-aos='fade-right'>
+                    <div className='paginas-inferior-textos'>
                         <h2>EXPERIÊNCIA VISUAL MODERNA</h2>
                         <p>
                             Você não percebe, mas quando vamos comprar um produto em um e-commerce ou visitar um site de uma empresa, intuitiva e rapidamente nosso cérebro recebe todas as informações visuais dos mesmos.
@@ -91,7 +91,7 @@ export default function Home(){
                             Quando visualizamos uma loja, um site ou uma página bem organizada e com um belo design, são ativados gatilhos mentais sem percebemos e logo vem em nossa mente que "esse local é confiável". Isso se torna um fator determinante para que a venda se concretize.
                         </p>
                     </div>
-                    <div className='paginas-inferior-img' data-aos='fade-left' >
+                    <div className='paginas-inferior-img'>
                         <img src={imgPaginaCapa} alt="Imagem de Capa" />
                     </div>
                 </div>

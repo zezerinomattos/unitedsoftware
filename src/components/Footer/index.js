@@ -32,8 +32,8 @@ export default function Footer(){
                     <li><Link to='/'>Home</Link></li>
                     <li><Links activeClass="active" to="sobre" spy={true} smooth={true} offset={-50} duration={500}>Sobre</Links></li>
                     <li><Links activeClass="active" to="paginas" spy={true} smooth={true} offset={0} duration={500}>Oque Oferecemos</Links></li>
-                    <li><Link to='produtos'>Produtos</Link></li>
-                    <li><Link to='contato'>Contato</Link></li>
+                    <li><Link to='/produtos'>Produtos</Link></li>
+                    <li><Link to='/contato'>Contato</Link></li>
                 </ul>
 
                 <ul className='redes-sociais'>
