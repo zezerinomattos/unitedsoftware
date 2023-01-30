@@ -16,11 +16,6 @@ import imgPaginaCapa from '../../assets/paginas-capa.png';
 
 export default function Home(){
 
-    function sobre(){
-        window.scroll('.sobre');
-        
-    }
-
     useEffect(() => {
         Aos.init({duration: 2000});
     }, []);
@@ -34,7 +29,7 @@ export default function Home(){
                         <h1>UNITED SOFTWARE</h1>
                         <h2>Welcome to the Future!</h2>
 
-                        <Link to="#" >FAÇA UM ORÇAMENTO SEM COMPROMISSO</Link>
+                        <Link to="/contato" >FAÇA UM ORÇAMENTO SEM COMPROMISSO</Link>
                     </div>
                 </div>
             </header>

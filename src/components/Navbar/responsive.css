@@ -17,6 +17,12 @@ font-family: 'Pacifico', cursive;
 /*----------------------------*/
 /*          TABLET            */
 /*----------------------------*/
+@media (max-width: 930px) {
+    nav.container div.img-logo{
+        margin-left: 1rem;
+        max-width: 150px;
+    }
+}
 
 @media (max-width: 780px) {
 
@@ -24,12 +30,13 @@ font-family: 'Pacifico', cursive;
         justify-content: space-between;
     }
 
-    nav.container div.img-logo{
-        margin-left: 1rem;
-    }
-
     ul.menu-humburguer{
         display: flex;
+    }
+
+    nav.container div.img-logo{
+        margin-left: 1rem;
+        max-width: 200px;
     }
 
     nav.container ul.menu-left{

@@ -15,6 +15,7 @@
     div.container{
         flex-direction: column;
         justify-content: center;
+        margin-bottom: -2rem;
     }
 
     /*          IMAGE           */

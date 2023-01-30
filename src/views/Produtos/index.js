@@ -5,11 +5,13 @@ import React from 'react';
 import './style.css';
 import './responsive.css';
 import Navbar from '../../components/Navbar';
-import { LayoutProdutosEcomerce } from '../../utils/lyouts';
+import Footer from '../../components/Footer';
+import { LayoutProdutosEcomerce, LayoutProdutosWebsite } from '../../utils/lyouts';
 
 // Images
 import imgCapaHeader from '../../assets/headerProdutos.png';
 import imgLayoutprodutos001 from '../../assets/Produtos-lojaWordpress.png';
+import imgLayoutprodutos002 from '../../assets/Produtos-paginas-barkey.png';
 
 export default function Produtos(){
     return(
@@ -35,7 +37,9 @@ export default function Produtos(){
 
             <article className='layout-produtos'>
                 <LayoutProdutosEcomerce  img={imgLayoutprodutos001} />
+                <LayoutProdutosWebsite img={imgLayoutprodutos002}/>
             </article>
+            <Footer />
         </>
     );
 }

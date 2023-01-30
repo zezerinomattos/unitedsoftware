@@ -15,6 +15,7 @@ export default function Navbar(){
 
     const [actived, setActived] = useState(false);
     const [option, setOption] = useState('home');
+    const [activeLi, setActiveLi] = useState(true);
 
     function ativaMenuHamburguer(){
         setActived(!actived);
