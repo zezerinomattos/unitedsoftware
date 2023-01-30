@@ -1,0 +1,37 @@
+@media (max-width: 1670px) {
+    /*          IMAGE           */
+    div.container div.imagem-layout{
+        max-width: 600px;
+    }
+
+    /*          TEXT            */
+    div.container div.text{
+        max-width: 40%;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 1070px) {
+    div.container{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /*          IMAGE           */
+    div.container div.imagem-layout{
+        max-width: 900px;
+    }
+
+    /*          TEXT            */
+    div.container div.text{
+        max-width: 90%;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    /*          TEXT            */
+    div.container div.text{
+        max-width: 100%;
+    }
+}

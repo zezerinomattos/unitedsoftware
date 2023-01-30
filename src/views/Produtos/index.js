@@ -5,10 +5,11 @@ import React from 'react';
 import './style.css';
 import './responsive.css';
 import Navbar from '../../components/Navbar';
-import { LayoutProdutos } from '../../utils/lyouts';
+import { LayoutProdutosEcomerce } from '../../utils/lyouts';
 
 // Images
 import imgCapaHeader from '../../assets/headerProdutos.png';
+import imgLayoutprodutos001 from '../../assets/Produtos-lojaWordpress.png';
 
 export default function Produtos(){
     return(
@@ -33,7 +34,7 @@ export default function Produtos(){
             </header>
 
             <article className='layout-produtos'>
-                <LayoutProdutos />
+                <LayoutProdutosEcomerce  img={imgLayoutprodutos001} />
             </article>
         </>
     );
