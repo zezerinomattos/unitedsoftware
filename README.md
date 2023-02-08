@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+# Website corporativo para prestadora de serviços United Software
+
+### Este é um website corporativo para uma empresa prestadora de serviço, o qual apresenta a empresa e seus serviços de uma forma moderna e altamente criativa.
+
+[📧] Projeto feito em React.js <br />
+[📝] Layout desenhado e prototipado no Figma <br />
+[🔎] Fácil navegação <br /> 
+[👀] Estrutura com Clean Code para fácil manutenção <br />
+[📷]Imagens trabalhadas no Photoshop <br />
+[📲] Layout responsivo (se ajusta ao tamanho da tela) <br />
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
