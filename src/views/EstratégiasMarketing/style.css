@@ -67,6 +67,10 @@ header.marketing div.header-container div.chamada{
 header.marketing div.header-container div.chamada h1{
     color: #FFFF;
     margin-bottom: 30px;
+
+    animation-name: HeaderH1-moverParaDireita;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
 }
 
 header.marketing div.header-container div.chamada h2{
@@ -78,8 +82,13 @@ header.marketing div.header-container div.chamada h2{
     width: 95%;
     text-align: center;
     margin: auto;
-
     margin-bottom: 80px;
+
+    animation-name: HeaderH1-moverParaEsquerda;
+    animation-duration: 1.5s;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: backwards;
 }
 
 header.marketing div.header-container div.chamada a{
@@ -91,4 +100,204 @@ header.marketing div.header-container div.chamada a{
     font-family: 'Open Sans', sans-serif;
     font-size: max(16px, 1.5vw);
     transition: .5s ease-out;
+    cursor: pointer;
+
+    animation-name: HeaderA-moverParaCima;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: backwards;
+    transition: .3s ease-in-out;
+}
+
+header.marketing div.header-container div.chamada a:hover{
+    opacity: .7;
+    font-size: max(16px, 1.8vw);
+}
+
+/*----------------------------*/
+/*          ANIMAÇÕES         */
+/*----------------------------*/
+
+/*----------HEADER -----------*/
+
+@keyframes HeaderH1-moverParaDireita{
+    0%{
+        opacity: 0;
+        transform: translateX(-75px);
+    }
+
+    70%{
+        transform: translateX(10px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+}
+
+@keyframes HeaderH1-moverParaEsquerda{
+    0%{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    70%{
+        transform: translateX(-5px);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes HeaderA-moverParaCima{
+
+    0%{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+/*----------------------------*/
+/*        Section Conteúdo   */
+/*----------------------------*/
+
+/*---------- DIV SUPERIOR ----------*/
+section.conteudo div.conteudo-container{
+    max-width: 1600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    padding: 10px;
+}
+
+section.conteudo div.conteudo-container h1{
+    color: #4E7329;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1rem;
+
+    font-size: max(25px, 2.5vw);
+    text-align: center;
+}
+
+section.conteudo div.conteudo-container p.apresentacao{
+    color: #00082C  ;
+    font-family: 'Open Sans', sans-serif;
+    font-size: max(16px, 1vw);
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px #1f1e1e;
+}
+
+/*---------- DIV INFERIOR ----------*/
+section.conteudo div.conteudo-container div.conteudo-inferior{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+section.conteudo div.conteudo-container div.conteudo-inferior div.inferior-img{
+    max-width: 550px;
+    padding: 10px;
+    position: relative;
+}
+
+/*          Efeito Papel           */
+section.conteudo div.conteudo-container div.conteudo-inferior div.inferior-img::before{
+    position: absolute;
+    left: 24px;
+    top: 50%;
+    bottom: 25px;
+    width: 50%;
+    background-color: rgb(73, 72, 72);
+    box-shadow: 0 15px 10px rgb(59, 58, 58);
+    transform: rotate(-3deg);
+    content: "";
+    z-index: -1;
+}
+
+section.conteudo div.conteudo-container div.conteudo-inferior div.inferior-img img{
+    max-width: 100%;
+}
+
+section.conteudo div.conteudo-container div.conteudo-inferior div.inferior-texto{
+    max-width: 800px;
+    padding: 10px;
+}
+
+section.conteudo div.conteudo-container div.conteudo-inferior div.inferior-texto p{
+    color: #00082C  ;
+    font-family: 'Open Sans', sans-serif;
+    font-size: max(16px, 1vw);
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 2px #464242;
+}
+
+section.conteudo div.conteudo-container div.conteudo-inferior div.inferior-texto p ion-icon{
+    color: #6b0534;
+}
+
+section.conteudo div.conteudo-container a{
+    text-decoration: none;
+    padding: 15px 55px;
+    background: linear-gradient(rgba(7,140,49,55) 0%, rgba(6,89,2,35)50%, rgba(6,89,2,35)100%);
+    border-radius: 30px;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: max(14px, 1.5vw);
+    transition: .5s ease-out;
+    margin: auto;
+}
+
+section.conteudo div.conteudo-container a:hover{
+    opacity: .7;
+    font-size: max(16px, 1.8vw);
+}
+
+section.conteudo div.conteudo-container div.preco-guia{
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+section.conteudo div.conteudo-container div.preco-guia h4.valor{
+    color: rgba(6,89,2,35);
+    font-size: max(22px, 1.5vw);
+}
+
+section.conteudo div.conteudo-container div.preco-guia span{
+    color: #d63d3d;
+    font-size: max(24px, 1.8vw);
+    text-shadow: 2px 2px 4px #1a1919;
+}
+
+section.conteudo div.conteudo-container div.preco-guia div.linha{
+    position: absolute;
+    width: 70%;
+    height: 3px;
+    top:  1.5rem;
+    right: 5px;
+    border: none;
+    opacity: .8;
+    
+    background-color: #971d1d;
+    box-shadow: 2px 2px 4px #1a1919;
 }

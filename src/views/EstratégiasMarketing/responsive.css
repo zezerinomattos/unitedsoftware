@@ -55,3 +55,13 @@
     }
 }
 
+/*----------------------------*/
+/*          CONTEÚDO           */
+/*----------------------------*/
+
+@media screen and (max-width: 1500px){
+    section.conteudo div.conteudo-container div.preco-guia div.linha{
+        top:  1.1rem;
+    }
+}
+
