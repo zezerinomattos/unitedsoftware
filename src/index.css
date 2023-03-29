@@ -12,6 +12,16 @@ body{
   display: none;
 }
 
+h1{
+  font-family: 'Fredericka the Great', cursive;
+  text-transform: uppercase;
+  font-size: max(32px, 3.5vw);
+  font-weight: 400;
+  color: #FFF;
+  text-shadow: 4px 6px 10px #000;
+}
+
+
 .App{
   width: 100%;
 

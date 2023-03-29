@@ -3,6 +3,15 @@
 /*----------------------------*/
 /*          TABLET            */
 /*----------------------------*/
+@media(max-width: 1030px){
+    header.container {
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url(../../assets/HeaderCapaM.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }  
+}
+
 
 @media(max-width: 900px){
     header.container{
@@ -51,4 +60,17 @@
         max-width: 90%;   
         flex-direction: column;
     }
+}
+
+/*----------------------------*/
+/*          CELL              */
+/*----------------------------*/
+
+@media(max-width: 600px){
+    header.container {
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url(../../assets/HeaderCapaP.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }  
 }

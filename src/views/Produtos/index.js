@@ -16,7 +16,7 @@ import imgLayoutprodutos002 from '../../assets/Produtos-paginas-barkey.png';
 export default function Produtos(){
     return(
         <>
-            <header>
+            <header className='produtos'>
                 <Navbar />
                 <div className='header-container'>
                     <div className='imagem'>

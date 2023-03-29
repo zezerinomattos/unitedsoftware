@@ -26,7 +26,7 @@ font-family: 'Pacifico', cursive;
 /*          HEADER            */
 /*----------------------------*/
 
-header {
+header.produtos{
     width: 100%;
     background-color: #191919;
 }

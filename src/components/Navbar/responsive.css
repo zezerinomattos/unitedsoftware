@@ -17,14 +17,8 @@ font-family: 'Pacifico', cursive;
 /*----------------------------*/
 /*          TABLET            */
 /*----------------------------*/
-@media (max-width: 930px) {
-    nav.container div.img-logo{
-        margin-left: 1rem;
-        max-width: 150px;
-    }
-}
 
-@media (max-width: 780px) {
+@media (max-width: 1005px) {
 
     nav.container{
         justify-content: space-between;
@@ -36,7 +30,7 @@ font-family: 'Pacifico', cursive;
 
     nav.container div.img-logo{
         margin-left: 1rem;
-        max-width: 200px;
+        max-width: 250px;
     }
 
     nav.container ul.menu-left{
@@ -76,6 +70,19 @@ font-family: 'Pacifico', cursive;
     }
 }
 
+@media (max-width: 930px) {
+    nav.container div.img-logo{
+        margin-left: 1rem;
+        /* max-width: 150px; */
+    }
+}
+
+@media (max-width: 600px) {
+    nav.container div.img-logo{
+        margin-left: 1rem;
+        max-width: 180px;
+    }
+}
 
 /*----------------------------*/
 /*          ANIMAÇÕES         */

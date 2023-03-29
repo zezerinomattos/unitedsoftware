@@ -63,7 +63,7 @@ ul.menu-humburguer li{
 }
 
 ul.menu-humburguer li ion-icon{
-    font-size: 70px;
+    font-size: 50px;
     color: #fff;
     margin-right: 2rem;
 }
@@ -84,7 +84,8 @@ nav.container ul.menu-left li{
 nav.container ul.menu-left li a{
     text-decoration: none;
     color: #fff;
-    font-size: 100%;
+    /* font-size: 100%; */
+    font-size: max(12px, .8vw);
     padding-bottom: 10px;
     transition: .3s ease-in-out;
 
