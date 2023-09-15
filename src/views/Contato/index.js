@@ -41,7 +41,7 @@ export default function Login(){
             telephone: fone
         }
 
-        emailjs.send('service_l0zwn0i', 'template_6al7z04', templateParams, 'Y-OTkZwPWkC9T44Kh')
+        emailjs.send('service_jnscgqp', 'template_6al7z04', templateParams, 'Y-OTkZwPWkC9T44Kh')
         .then((response) => {
             // console.log('EMAIL EVIADO', response.status, response.text);
             setName('');
