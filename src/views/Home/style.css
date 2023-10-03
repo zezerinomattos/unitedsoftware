@@ -333,8 +333,46 @@ section.paginas div.paginas-inferior div.paginas-inferior-img img{
     max-width: 100%;
 }
 
+section.paginas a.linkProdutos{
+    max-width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: auto;
+    font-size: max(18px, 1.5vw);
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 20px;
+    background-color: #ff6e40;
+    color: #ffffff;
+    border-radius: 0.8rem;
+    transition: .5s ease-out;
+}
+
+section.paginas a.animation{
+    animation-name: btnLinkProdutos;
+    animation-duration: 1.1s;
+    animation-iteration-count: infinite;
+}
+
+section.paginas a.linkProdutos:hover {
+    transform:  scale(1.1);
+    animation: none;
+    background-color: #ff8c66; 
+}
 
 /*----------------------------*/
-/*          SECTION PAGINAS   */
+/*          ANIMAÇÕES         */
 /*----------------------------*/
-
+@keyframes btnLinkProdutos {
+    0%{
+        background-color: #d44f03;
+    }
+    50%{
+        background-color: #f39039;
+    }
+    
+    100%{
+        background-color: #d44f03;
+    }
+}

@@ -73,4 +73,15 @@
         background-position: center center;
         background-size: cover;
     }  
+
+    /*----------------------------*/
+    /*          SECTION PAGINAS   */
+    /*----------------------------*/
+
+    section.paginas a.linkProdutos{
+        padding: 0 10;
+        margin: 0 10px;
+    }
 }
+
+

@@ -40,14 +40,15 @@ export default function Home(){
                 </div>
                 <div className='sobre-textos'>
                     <h2>SOBRE</h2>
-                    <span>Desenvolvimento de software sob medida para o seu negócio.</span>
+                    <span>United Software: Transformando Ideias em Realidade Digital.</span>
                     <p>
-                        A United Software surge com uma ideia de linkar sua loja, negócio e marca com o futuro, encaminhar seus passos a outro nível. United Software ou Softwares Unidos, para fazer com que nossos clientes consigam atingir seus resultados. <br/>
-
-                        Trabalhamos em diversas frentes, construindo através da tecnologia um futuro para seu negócio e dando a visibilidade que ele precisa para se destacar no mundo digital.
+                        Na United Software, estamos comprometidos em impulsionar o sucesso do seu negócio, conectando-o com o futuro digital. Somos uma equipe de profissionais altamente qualificados, especializados em construir sites, landing pages e sistemas sob medida para atender às suas necessidades exclusivas. Além disso, contamos com especialistas em mídias sociais e copywriters talentosos, prontos para elevar a presença da sua marca nas redes sociais.
                     </p>
                     <p>
-                        O que você acha de sua marca brilhar no centro das atenções em um mundo cheio de marcas concorrentes para agarrar e prender a atenção das pessoas? Não é fácil, mas temos a solução certa para você, desenvolvemos projetos personalizados e responsivos, permitindo assim que seu negócio seja visto em qualquer dispositivo com a mesma beleza e performance.
+                        Entendemos a importância de destacar sua marca em um mercado competitivo. É por isso que oferecemos soluções personalizadas que garantem que sua empresa se destaque no cenário digital. Trabalhamos em diversas frentes, utilizando a tecnologia para criar um futuro sólido para o seu negócio e proporcionando a visibilidade necessária para brilhar online.
+                    </p>
+                    <p>
+                        Desenvolvemos projetos personalizados e responsivos, garantindo que seu negócio seja exibido com beleza e desempenho excepcional em qualquer dispositivo.
                     </p>
                 </div>
             </section>
@@ -59,18 +60,18 @@ export default function Home(){
                     <div className='paginas-superior-texto'>
                         <div className='paginas-superior-texto-esq'>
                             <p>
-                                Você quer ver sua empresa, sua marca ou seu negócio crescer, ganhar corpo, se destacar entre as inúmeras concorrências? Então encaminhe-a para o futuro, aqui na United Software vamos cuidar para que seu negócio trafegue pelo mundo através dos maiores buscadores do planeta.
+                                Na United Software, entendemos a necessidade de fazer sua empresa, marca ou negócio prosperar e se destacar em meio à concorrência acirrada. Nosso compromisso é direcioná-lo para o futuro, garantindo que sua presença online seja otimizada para ser encontrada pelos maiores buscadores do mundo.
                             </p>
                             <p>
-                                O design da sua loja é essencial para o sucesso do seu negócio. A primeira coisa que seus possíveis clientes observarão ao chegarem ao seu portal é a aparência dele. Para isso o visual precisa atraí-los, caso contrário, nem se darão ao trabalho de olhar os seus produtos.
+                                Reconhecemos a importância crucial do design do seu website no sucesso do seu negócio. Quando os visitantes chegam a até você, a primeira impressão é fundamental. Se o visual não cativar imediatamente, eles podem não explorar seus produtos ou serviços.
                             </p>
                         </div>
                         <div className='paginas-superior-texto-dir'>
                             <p>
-                                Produzimos um trabalho moderno e altamente criativo o qual vai cumprir como papel principal de comercialização: a criação de receitas através de vendas e reconhecimento da marca no meio digital.
+                                Na United Software, oferecemos um trabalho moderno e altamente criativo que desempenha um papel fundamental na geração de receita por meio de vendas e no aumento do reconhecimento da sua marca no ambiente digital.
                             </p>
                             <p>
-                                Desenvolvemos o layout conforme as necessidades da sua empresa, público alvo e características baseado na sua linha de produtos e filosofia. Com nossa metodologia de prototipação nossos clientes acompanham todo processo criativo do seu material, podendo solicitar alterações até a sua aprovação.
+                                Criamos layouts sob medida que atendem às necessidades exclusivas da sua empresa, ao seu público-alvo e à filosofia da sua marca. Utilizando nossa metodologia de prototipação, permitimos que nossos clientes participem ativamente do processo criativo, fazendo solicitações de alterações até que o design seja aprovado.
                             </p>
                         </div>
                     </div>
@@ -80,16 +81,21 @@ export default function Home(){
                     <div className='paginas-inferior-textos'>
                         <h2>EXPERIÊNCIA VISUAL MODERNA</h2>
                         <p>
-                            Você não percebe, mas quando vamos comprar um produto em um e-commerce ou visitar um site de uma empresa, intuitiva e rapidamente nosso cérebro recebe todas as informações visuais dos mesmos.
+                            Talvez você não perceba, mas ao explorar um e-commerce ou visitar um site empresarial, o seu cérebro processa instantaneamente informações visuais de forma intuitiva. É nesse momento que a experiência visual entra em cena.
                         </p>
                         <p>
-                            Quando visualizamos uma loja, um site ou uma página bem organizada e com um belo design, são ativados gatilhos mentais sem percebemos e logo vem em nossa mente que "esse local é confiável". Isso se torna um fator determinante para que a venda se concretize.
+                            Um site bem organizado e com um design atraente ativa gatilhos mentais que você nem percebe. Instantaneamente, a sensação de confiabilidade surge em sua mente, tornando-se um fator determinante para a concretização de uma venda.
+                        </p>
+                        <p>
+                            Na United Software, compreendemos a importância de uma experiência visual impactante. Nossos especialistas em design estão prontos para transformar a aparência do seu site em um poderoso ímã para clientes em potencial.
                         </p>
                     </div>
                     <div className='paginas-inferior-img'>
                         <img src={imgPaginaCapa} alt="Imagem de Capa" />
                     </div>
                 </div>
+                
+                <Link to="/produtos" className='linkProdutos animation'>Conheça Nossos Produtos</Link>
             </section>
             
             <Footer />
