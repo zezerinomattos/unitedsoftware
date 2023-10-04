@@ -18,7 +18,7 @@ font-family: 'Pacifico', cursive;
 /*          TABLET            */
 /*----------------------------*/
 
-@media (max-width: 1005px) {
+@media (max-width: 1055px) {
 
     nav.container{
         justify-content: space-between;
