@@ -87,3 +87,38 @@ div.container div.text p{
     font-size: max(14px, .8vw);
     margin-top: 1.5rem;
 }
+
+
+div.imagem-layout-container{
+    max-width: 600px;
+    box-shadow: 2px 2px 2px 4px rgb(73, 72, 72);
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    cursor: pointer;
+}
+
+div.imagem-layout-container:before{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    bottom: 10px;
+    width: 30%;
+    background-color: rgb(73, 72, 72);
+    box-shadow: 0 15px 10px rgb(59, 58, 58);
+    transform: rotate(-3deg);
+    content: "";
+    z-index: -1;
+}
+
+div.imagem-layout-container img{
+    max-width: 48.3%;
+    box-shadow: 0 15px 10px rgb(59, 58, 58);
+    /* padding: 0 5px; */
+    margin: 0 5px;
+}
+
+div.imagem-layout-container img:hover{
+    transform:  scale(1.4);
+    z-index: 2;
+}
