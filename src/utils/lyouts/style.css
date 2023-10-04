@@ -112,7 +112,7 @@ div.imagem-layout-container{
 div.imagem-layout-container:before{
     position: absolute;
     left: 15px;
-    top: 40%;
+    top: 55%;
     bottom: 10px;
     width: 30%;
     background-color: rgb(73, 72, 72);
