@@ -4,35 +4,9 @@ import React from 'react';
 import './style.css';
 import './responsive.css';
 
-const LayoutProdutosEcomerce = ((props) => {
-    return(
-        <div className='container'>
-            <div className='imagem-layout'>
-                <img src={props.img} alt="" />
-            </div>
-
-            <div className='text'>
-                <h1>E-commerce</h1>
-                <span>Comece a vender online, crie sua loja virtual e saia na frente do seu concorrente.</span>
-                <p>
-                    Realize vendas de forma automatizada com sua Loja Online. Sistemas de E-commerce completos e mordernos, vamos desenvolver o layout conforme as necessidades da sua empresa, público alvo e baseado na sua linha de produtos.
-                </p>
-            </div>
-        </div>
-    );
-});
-
-
 const LayoutProdutosWebsite = ((props) => {
     return(
         <div className='container'>
-            {/* <div className='imagem-layout'>
-                <img src={props.img} alt="" />
-            </div> */}
-            <div className='imagem-layout-container'>
-                <img src={props.img1} alt="" />
-                <img src={props.img2} alt="" />
-            </div>
 
             <div className='text'>
                 <h1>Sites Institucionais</h1>
@@ -47,17 +21,18 @@ const LayoutProdutosWebsite = ((props) => {
                     Não basta apenas ter um site, é crucial que ele seja encontrado pelo seu público-alvo. É por isso que não apenas construímos sites excepcionais, mas também os otimizamos para os mecanismos de busca, incluindo o Google. Garantimos que sua empresa seja facilmente localizada em pesquisas em todo o Brasil.
                 </p>
             </div>
+
+            <div className='imagem-layout-container'>
+                <img src={props.img1} alt="" />
+                <img src={props.img2} alt="" />
+            </div>
         </div>
     );
 });
 
 const LayoutProdutosLandingPage = ((props) => {
     return(
-        <div className='container'>
-            <div className='imagem-layout-container'>
-                <img src={props.img1} alt="" />
-                <img src={props.img2} alt="" />
-            </div>
+        <div className='container container-color'>
 
             <div className='text'>
                 <h1>Landing Page</h1>
@@ -75,6 +50,31 @@ const LayoutProdutosLandingPage = ((props) => {
                     <strong>Responsividade:</strong> Nossas páginas são responsivas e funcionam perfeitamente em todos os dispositivos, garantindo que você alcance seu público onde quer que eles estejam.
                 </p>
             </div>
+
+            <div className='imagem-layout-container'>
+                <img src={props.img1} alt="" />
+                <img src={props.img2} alt="" />
+            </div>
+        </div>
+    );
+});
+
+const LayoutProdutosEcomerce = ((props) => {
+    return(
+        <div className='container'>
+
+            <div className='text'>
+                <h1>E-commerce</h1>
+                <span>Comece a vender online, crie sua loja virtual e saia na frente do seu concorrente.</span>
+                <p>
+                    Realize vendas de forma automatizada com sua Loja Online. Sistemas de E-commerce completos e mordernos, vamos desenvolver o layout conforme as necessidades da sua empresa, público alvo e baseado na sua linha de produtos.
+                </p>
+            </div>
+
+            <div className='imagem-layout'>
+                <img src={props.img} alt="" />
+            </div>
+
         </div>
     );
 });

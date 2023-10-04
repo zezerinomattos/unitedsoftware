@@ -38,6 +38,12 @@ div.container{
     align-items: center;
 }
 
+div.container-color{
+    background-color: #049DD9;
+    border-top: 2px solid #F25C05;
+    border-bottom: 2px solid #F25C05;
+}
+
 /*          IMAGE           */
 div.container div.imagem-layout{
     max-width: 800px;
@@ -88,6 +94,11 @@ div.container div.text p{
     margin-top: 1.5rem;
 }
 
+div.container-color div.text p{
+    color: #FFFFFF;
+    text-shadow: 2px 2px 2px #2221218c;
+}
+
 
 div.imagem-layout-container{
     max-width: 600px;
@@ -101,7 +112,7 @@ div.imagem-layout-container{
 div.imagem-layout-container:before{
     position: absolute;
     left: 15px;
-    top: 50%;
+    top: 40%;
     bottom: 10px;
     width: 30%;
     background-color: rgb(73, 72, 72);
