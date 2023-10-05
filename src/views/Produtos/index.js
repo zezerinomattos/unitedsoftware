@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 
 // MY IMPORTS
@@ -6,14 +6,18 @@ import './style.css';
 import './responsive.css';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
-import { LayoutProdutosEcomerce, LayoutProdutosWebsite } from '../../utils/lyouts';
+import { LayoutProdutosEcomerce, LayoutProdutosWebsite, LayoutProdutosLandingPage } from '../../utils/lyouts';
 
 // Images
 import imgCapaHeader from '../../assets/headerProdutos.png';
 import imgLayoutprodutos001 from '../../assets/Produtos-lojaWordpress.png';
-import imgLayoutprodutos002 from '../../assets/Produtos-paginas-barkey.png';
+import imgLayoutprodutos002 from '../../assets/prod-img-Home - Oconner.png';
+import imgLayoutprodutos0002 from '../../assets/prod-img-Home - Oconner.png';
+import imgLayoutprodutos003 from '../../assets/prod-imgHome-receitasP.png';
+import imgLayoutprodutos0003 from '../../assets/prod-imgInstaSuccessHomeM.png';
 
 export default function Produtos(){
+
     return(
         <>
             <header className='produtos'>
@@ -36,8 +40,9 @@ export default function Produtos(){
             </header>
 
             <article className='layout-produtos'>
+                <LayoutProdutosWebsite img1={imgLayoutprodutos002} img2={imgLayoutprodutos0002}/>
+                <LayoutProdutosLandingPage img1={imgLayoutprodutos003} img2={imgLayoutprodutos0003}/>
                 <LayoutProdutosEcomerce  img={imgLayoutprodutos001} />
-                <LayoutProdutosWebsite img={imgLayoutprodutos002}/>
             </article>
             <Footer />
         </>

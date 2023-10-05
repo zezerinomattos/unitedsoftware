@@ -18,7 +18,7 @@ font-family: 'Pacifico', cursive;
 /*          TABLET            */
 /*----------------------------*/
 
-@media (max-width: 1005px) {
+@media (max-width: 1055px) {
 
     nav.container{
         justify-content: space-between;
@@ -35,7 +35,7 @@ font-family: 'Pacifico', cursive;
 
     nav.container ul.menu-left{
         width: 80%;
-        height: 85.9vh;
+        height: 82vh;
         flex-direction: column;
         background: linear-gradient(rgba(4,157,217) 0%, rgba(54,176,224) 45%, rgba(60, 179, 113, .9) 100%);
         padding-top: .5rem;

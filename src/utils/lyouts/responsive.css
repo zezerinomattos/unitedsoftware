@@ -36,3 +36,32 @@
         max-width: 100%;
     }
 }
+
+/*-------------------------------------*/
+@media (max-width: 1070px) {
+    div.imagem-layout-container{
+        max-width: 1000px;
+    }
+}
+
+@media (max-width: 500px) {
+    div.imagem-layout-container{
+        flex-direction: column;
+        box-shadow: none;
+    }
+
+    div.imagem-layout-container:before{
+        left: 18px;
+        bottom: 10px;
+        width: 30%;
+    }
+
+    div.imagem-layout-container img{
+        max-width: 100%;
+        padding: 0;
+        box-shadow: 0 15px 10px rgb(59, 58, 58);
+        border: 1px solid rgb(59, 58, 58);
+
+        margin-bottom: 10px;
+    }
+}
