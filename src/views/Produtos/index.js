@@ -12,7 +12,7 @@ import { LayoutProdutosEcomerce, LayoutProdutosWebsite, LayoutProdutosLandingPag
 import imgCapaHeader from '../../assets/headerProdutos.png';
 import imgLayoutprodutos001 from '../../assets/Produtos-lojaWordpress.png';
 import imgLayoutprodutos002 from '../../assets/prod-img-Home - Oconner.png';
-import imgLayoutprodutos0002 from '../../assets/prod-img-Home - Oconner.png';
+import imgLayoutprodutos0002 from '../../assets/prod-img-Mecânica - Home.png';
 import imgLayoutprodutos003 from '../../assets/prod-imgHome-receitasP.png';
 import imgLayoutprodutos0003 from '../../assets/prod-imgInstaSuccessHomeM.png';
 
