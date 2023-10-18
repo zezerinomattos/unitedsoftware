@@ -7,4 +7,4 @@
 [🔎] Fácil navegação <br /> 
 [👀] Estrutura com Clean Code para fácil manutenção <br />
 [📷]Imagens trabalhadas no Photoshop <br />
-[📲] Layout responsivo (se ajusta ao tamanho da tela) <br />
+[📲] Layout responsivo (se ajusta ao tamanho da tela)
